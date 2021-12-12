@@ -2,48 +2,48 @@ baseURL = "https://jmolina.cloud"
 theme = "congo"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Juanjo Molina"
+title = "jmolina.cloud"
 enableEmoji = true
 summaryLength = 0
-
 enableRobotsTXT = true
 
 [author]
   name = "Juanjo Molina"
-  image = "img/author.jpg"
-  bio = "DevOps Engineer"
+  image = "img/profile.jpg"
   links = [
     { email = "mailto:juanjo@" },
     { github = "https://github.com/juanjo-mp" },
-    { instagram = "https://instagram.com/juanjo_mp98" },
+    { instagram = "https://www.instagram.com/juanjo_mp98/" },
   ]
 
 [params]
-  # logo = "logo.jpg"
   colorScheme = "avocado"
+  env = "production"
+  darkToggle = true
 
 [params.homepage]
-  layout = "custom"
+  layout = "profile"
   showRecent = false
-  #mainSections = ["samples"]
 
 [params.list]
   groupByYear = false
-  showBreadcrumbs = true
+  showBreadcrumbs = false
 
 [params.article]
-  showBreadcrumbs = true
-  showEdit = true
-  editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
-  editAppendPath = true
+  showDate = true
+  showAuthor = false
+  showReadingTime = true
 
 [[menu.main]]
   name = "About"
   pageRef = "about"
+  url = "/about/"
   weight = 10
+
 [[menu.main]]
   name = "Posts"
   pageRef = "posts"
+  url = "/posts"
   weight = 20
 
 [markup.goldmark]
@@ -52,3 +52,6 @@ enableRobotsTXT = true
 
 [markup.highlight]
   noClasses = false
+
+[taxonomies]
+  topic = "topics"
