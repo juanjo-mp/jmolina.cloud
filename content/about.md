@@ -4,7 +4,7 @@ date: 2021-12-12T22:29:11+01:00
 draft: false
 description: "About me"
 ---
-My name is Juan José Molina (Juanjo) and I'm DevOps Engineer based in Barcelona, Spain. In this blog I'll be posting interesting issues I find at work, Linux and macOS workflows, side projects and maybe about music and other random subjects too. Feel free to reach out via Email or Instagram DMs if you've got any questions or if you just want to say hi 🙂
+My name is Juan José Molina (Juanjo) and I'm DevOps Engineer based in Barcelona, Spain. In this blog I'll be posting interesting issues I find at work, Linux and macOS workflows, side projects and maybe about music and other random subjects too. 
 
 My operating system of choice is Fedora Linux, but I'm currently using macOS at work, therefore I end up using macOS in my free time too.
 
@@ -28,3 +28,5 @@ Software I use:
   - Buildah
   - Docker & Docker Compose
   - Sequel Ace
+
+  Feel free to reach out via Email or Instagram DMs if you've got any questions or if you just want to say hi 🙂
