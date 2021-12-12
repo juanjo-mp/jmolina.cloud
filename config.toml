@@ -1,0 +1,54 @@
+baseURL = "https://jmolina.cloud"
+theme = "congo"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Juanjo Molina"
+enableEmoji = true
+summaryLength = 0
+
+enableRobotsTXT = true
+
+[author]
+  name = "Juanjo Molina"
+  image = "img/author.jpg"
+  bio = "DevOps Engineer"
+  links = [
+    { email = "mailto:juanjo@" },
+    { github = "https://github.com/juanjo-mp" },
+    { instagram = "https://instagram.com/juanjo_mp98" },
+  ]
+
+[params]
+  # logo = "logo.jpg"
+  colorScheme = "avocado"
+
+[params.homepage]
+  layout = "custom"
+  showRecent = false
+  #mainSections = ["samples"]
+
+[params.list]
+  groupByYear = false
+  showBreadcrumbs = true
+
+[params.article]
+  showBreadcrumbs = true
+  showEdit = true
+  editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
+  editAppendPath = true
+
+[[menu.main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+[[menu.main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 20
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
