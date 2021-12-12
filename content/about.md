@@ -24,9 +24,7 @@ Software I use:
   - Element
   - DaisyDisk
   - NewNetwire
-  - Podman 
-  - Buildah
-  - Docker & Docker Compose
+  - Podman, Buildah, Docker & Docker Compose
   - Sequel Ace
 
   Feel free to reach out via Email or Instagram DMs if you've got any questions or if you just want to say hi 🙂
